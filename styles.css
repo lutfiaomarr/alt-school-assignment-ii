@@ -1,0 +1,104 @@
+@media screen and (min-width: 300px) {
+    .main {
+        align-items: center;
+        display: flex;
+        padding: 80px;
+        justify-content: space-between;
+        height: 100vh;
+    }
+  
+  .portrait {
+    text-align: left;
+  }
+  .logo {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+
+  }
+  
+  h2 {
+    margin: 10px;
+  }
+
+  p{
+    margin: 10px;
+  }
+
+  .lscape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    justify-content: space-between;
+  }
+  
+  #signup {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  
+  #signup div {
+   height: fit-content;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 2% 0% 2%;
+
+  }
+  
+  #signup .activity {
+    width: 100%;
+    padding: 2% 2% 0% 2% ;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #signup .pass {
+    width: 100%;
+    padding: 2% 2% 0% 2% ;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #signup label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  #signup input,
+  #signup select,
+  #activity input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  #signup button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2ec4b6;
+    color: white;
+    border: none;
+  }
+
+
+  
+  
+  #signup p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  #signup p a {
+    color: #2ec4b6;
+  }
+  
+}
+  
